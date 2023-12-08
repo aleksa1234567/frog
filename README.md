@@ -5,7 +5,7 @@ make it visually attractive and implement different difficulties for the player 
 
 Main menu:
 
-https://github.com/aleksa1234567/frog/assets/35041017/dba5e86f-e0ec-4b51-aaee-e46e11746800
+https://github.com/aleksa1234567/frog/assets/35041017/11f3810b-213f-4c5c-9ab3-9c4cb43b5fa0
 
 Player not being to close off path to the goal:
 
