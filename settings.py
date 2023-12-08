@@ -1,6 +1,6 @@
 WIN_WIDTH, WIN_HEIGHT = 1280,720
 FPS = 40
-CAPTION="Quoridor clone"
+CAPTION="KreKre"
 #colors
 RED = (255,0,0)
 CYAN = (0,255,255)
