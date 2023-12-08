@@ -207,20 +207,11 @@ while running:
 			pygame.display.update()
 		case "game":
 			#Event loop
-			if enemy_rect.colliderect(player_rect):
-				enemy_jump=True
 			if not player_turn:
-				if enemy_jump:
-					enemy_jump = False
-					enemy_y+=1
-				enemy_pos[1] += CELL_SIZE + PADDING
-
 				enemy_y+=1
 				enemy_pos[1] += CELL_SIZE + PADDING
-
-				#placed[str(walls[player_y-1][player_x])]=True
 				if enemy_y >= CELL_COUNT_Y and not enemy_dead:
-					print('Enemy Won')
+					print('Enemy reached the goal')
 					enemy_dead = True
 					#running = False
 				player_turn = True
@@ -246,7 +237,7 @@ while running:
 								player_turn = False
 								player_dead = True
 								#running=False
-								print("Player won")
+								print("Player reached the goal")
 						if event.key == K_s and player_pos[1] < WIN_HEIGHT - OFFSET_Y - CELL_SIZE:
 							if player_y!=CELL_COUNT_X-1 and player_x!=0 and player_x != CELL_COUNT_X-1:
 								if not placed[str(walls[player_y][player_x-1])] and not placed[str(walls[player_y][player_x])]:
