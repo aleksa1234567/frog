@@ -7,7 +7,7 @@ Main menu:
 
 https://github.com/aleksa1234567/frog/assets/35041017/11f3810b-213f-4c5c-9ab3-9c4cb43b5fa0
 
-Player not being to close off path to the goal:
+Player not being able to close off path to the goal:
 
 https://github.com/aleksa1234567/frog/assets/35041017/88033cb5-fc12-4fbd-b215-069cc26467c7
 
